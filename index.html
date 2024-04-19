@@ -38,26 +38,13 @@
         hash: true,
       });
 
-      //拡大縮小、方位の表示
-      map.addControl(
-        new maplibregl.NavigationControl({
-          showCompass: true,
-          showZoom: true,
-          visualizePitch: true,
-        }),
-        "bottom-right"
-      );
+      //UI
+      map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+      map.addControl(new maplibregl.ScaleControl());
 
-      //スケールコントロール
-      map.addControl(
-        new maplibregl.ScaleControl({
-          maxWidth: 200,
-          unit: "metric",
-        })
-      );
-
-      // タイル番号を表示
+      //debug
       map.showTileBoundaries = true;
+      map.showCollisionBoxes = false;
     </script>
   </body>
 </html>
