@@ -6,7 +6,10 @@
   https://k96mz.github.io/reference/vectorZoom5/{z}/{x}/{y}.pbf
 
 ２，Maputnik
-スタイリング済みの URL  
+スタイリングをした地図が見られる URL
+https://maputnik.github.io/editor/?style=https://k96mz.github.io/reference/style.json
+
+スタイルの URL  
 https://k96mz.github.io/reference/style.json
 
 ３，ウェブページ  
