@@ -35,7 +35,29 @@
         center: [132.652106, 34.418256], // starting position [lng, lat]
         zoom: 5, // starting zoom
         maplibreLogo: true,
+        hash: true,
       });
+
+      //拡大縮小、方位の表示
+      map.addControl(
+        new maplibregl.NavigationControl({
+          showCompass: true,
+          showZoom: true,
+          visualizePitch: true,
+        }),
+        "bottom-right"
+      );
+
+      //スケールコントロール
+      map.addControl(
+        new maplibregl.ScaleControl({
+          maxWidth: 200,
+          unit: "metric",
+        })
+      );
+
+      // タイル番号を表示
+      map.showTileBoundaries = true;
     </script>
   </body>
 </html>
