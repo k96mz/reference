@@ -7,9 +7,7 @@
   "sources": {
     "natural": {
       "type": "vector",
-      "tiles": [
-        "https://k96mz.github.io/20240405MapLibrePractice/2_vt/{z}/{x}/{y}.pbf"
-      ]
+      "tiles": ["https://k96mz.github.io/reference/vectorZoom5/{z}/{x}/{y}.pbf"]
     }
   },
   "layers": [
