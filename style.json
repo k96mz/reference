@@ -2,8 +2,6 @@
   "version": 8,
   "name": "Simple Style",
   "metadata": { "maputnik:renderer": "mlgljs" },
-  "center": [132.652106, 34.418256],
-  "zoom": 7,
   "sources": {
     "natural": {
       "type": "vector",
